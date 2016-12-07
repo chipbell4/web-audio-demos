@@ -1,4 +1,4 @@
-function example1(context) {
+function example2(context) {
   var oscillator = context.createOscillator();
   var gain = context.createGain();
 
