@@ -1,3 +1,6 @@
+/**
+ * Example 6: Create your own custom distortion
+ */
 function example6(context) {
   // load the audio via ajax
   var request = new XMLHttpRequest();

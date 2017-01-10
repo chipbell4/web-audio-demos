@@ -1,3 +1,6 @@
+/**
+ * Example 2: Play an syntesized tone
+ */
 function example2(context) {
   var oscillator = context.createOscillator();
   var gain = context.createGain();

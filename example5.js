@@ -1,3 +1,6 @@
+/**
+ * Example 5: Add a low pass filter to a oscillator to emulate a cool bass sound
+ */
 function example5(context) {
   var oscillator = context.createOscillator();
   var filter = context.createBiquadFilter();

@@ -1,3 +1,6 @@
+/**
+ * Example 3: Analyzing sound (EQ)
+ */
 function example3(context) {
   // load the audio via ajax
   var request = new XMLHttpRequest();

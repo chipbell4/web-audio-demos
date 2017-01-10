@@ -1,3 +1,6 @@
+/**
+ * Example 1: Play an Audio file
+ */
 function example1(context) {
   // load the audio via ajax
   var request = new XMLHttpRequest();
@@ -7,11 +10,12 @@ function example1(context) {
   request.send();
 
   function onLoad() {
+    // once it's loaded, attempt to decode the audio
     context.decodeAudioData(request.response, audioDecoded);
   }
 
   function audioDecoded(buffer) {
-    // set up the buffer for storing the audio data
+    // once it's decoded, set up the buffer for storing the audio data
     var source = context.createBufferSource();
     source.buffer = buffer;
   
